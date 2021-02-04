@@ -1,0 +1,88 @@
+<!--HTML Code-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>
+            SignUp form
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            function message(){
+                alert("Welcome to Our WEBSITE");
+            }
+        </script>
+    </head>
+    <body>
+
+        <form action="C11EMChemistry.pdf">
+            <label for="name" >Enter your name</label>
+       
+            <input type="text" id="name" placeholder="Enter name" 
+            name="name" >
+            <br>
+            <br>
+            <label for="sname" >Enter your Surname</label>
+         
+            <input type="text" id="sname" placeholder="Enter Surname" 
+            name="sname" >
+            <br>
+            <br>
+            <label for="gender" >Gender</label>
+            <select name="genders" id="gender">
+                <optgroup label="Gender">
+                <option value="female">Female</option>
+                <option value="male" selected>Male</option>
+                <option value="others">Other</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="username">Set Username</label>
+          
+            <input type="text" id="username" placeholder="Enter your username"
+                        name="user" value="Hartik">
+            <br>
+            <br>
+            <label for="password" >Set Password</label>
+         
+            <input type="password" id="password" placeholder="Enter password" 
+                        name="pass" value="Hartik@123">
+            <br>
+            <br>
+            <input type="checkbox" id="ckbx" name="passmng" value="passmng">
+            <label for="ckbx" >Save to password manager</label>
+            <br>
+            <button id="btn1" onclick="message()" type="submit">Submit</button>
+            <input id="btn2" type="button" name="button" value="Click me">
+        </form>
+
+    </body>
+</html>
+
+
+//  CSS Code:
+#btn1{
+    background-color: cyan;
+    font-size: 20px;
+    margin: 10px;
+    padding:5px;
+    color: blue;
+    border: 2px solid #a6c5f7;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+#btn1:hover{
+    color: rgb(111, 111, 255);
+    border: 5px solid #0062ff;
+    background-color: #01060d;
+ 
+
+}
+
+label{
+    color: #a3c6ff;
+    font-size: 30px;
+}
